@@ -1,0 +1,641 @@
+*,
+*:before,
+*:after {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+}
+
+body, html {
+	height:  100%;
+	background:  #212121;
+}
+
+/*navigation*/
+
+.top-nav {
+	width:  100%;
+	position:  fixed;
+	padding:  15px 20px;
+	display: flex;
+	justify-content: space-between;
+	color:  white;
+	font-size:  20px;
+	font-family:  'DM Serif Display', serif;
+	z-index: 1;
+}
+
+/*intro header*/
+
+.header {
+	padding:  275px 0 0 0;
+	height:  100vh;
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ) center no-repeat, url("images/meat_background.jpg") no-repeat;
+	background-position:  center;
+	background-size:  cover;
+}
+
+.quote-container {
+	width:  60%;
+	margin:  0 auto;
+	color:  white;
+}
+
+.intro-quote {
+	margin-bottom:  60px;
+	font-size:  64px;
+	font-family:  'DM Serif Display', serif;
+	font-style:  italic;
+}
+
+.quote-from {
+	font-size:  32px;
+	font-family:  'DM Serif Display', serif;
+
+}
+
+.thirdChart-title {
+	margin-top:  50px;
+}
+
+.intro {
+	display: flex;
+	text-align: center;
+}
+
+.meatProduction, .environment, .southkorea {
+	width:  33.33%;
+	padding:  5% 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: center;
+}
+
+.meatProduction {
+	background:  #282828;
+}
+
+.environment {
+	background:  #161616;
+}
+
+.southkorea {
+	background:  #212121;
+}
+
+.intro p {
+	font-size:  20px;
+	line-height: 1.5;
+	color:  white;
+	font-family:  'Cormorat Garamond', serif;
+	width: 100%;
+	padding:  0 15%;
+	text-align: center;
+	margin-bottom:  100px;
+}
+
+.intro img {
+	width:  30%;
+}
+
+.intro a {
+	display: inline-block;
+}
+
+.section .icon {
+	width:  30px;
+	height:  auto;
+	position:  absolute;
+}
+
+.productionIcon {
+	bottom:  50px;
+	left:  50px;
+}
+
+.environmentIcon {
+	right:  50px;
+	bottom:  50px;
+}
+
+.southkoreaIcon {
+	bottom:  50px;
+	left:  50%;
+	right:  -15px;
+}
+
+.porkcutChart {
+	height:  450px;
+}
+
+
+/*main content*/
+
+.main-content {
+	width:  40%;
+	margin:  0  auto;
+	color:  #ededed
+}
+
+.title {
+	margin-bottom:  10px;
+	font-size:  60px;
+	font-family:  'DM Serif Display', serif;
+	letter-spacing: 1px;
+	color:  #d13232;
+}
+
+.author, .date {
+	margin-bottom:  5px;
+	font-size:  18px;
+}
+
+.date {
+	margin-bottom:  35px;
+}
+
+div.main-content p {
+	font-size:  20px;
+	line-height:  1.5;
+	font-family:  'Cormorat Garamond', serif;
+	font-style: normal;
+}
+
+.chart-container .main-content p {
+	margin-top:  70px;
+}
+
+.chart-container .main-content {
+	width: 60%;
+}
+
+.topFive .main-content p {
+	margin:  60px 0;
+}
+
+.topFive .main-content {
+	width:  60%;
+}
+
+.main-content p,
+.main-content h2,
+.main-content h3{
+	font-family:  'Cormorant Garamond', serif;
+}
+
+
+.section {
+	height:  100vh;
+	display: flex;
+	background:  black;
+	align-items: center;
+	position:  relative;
+
+}
+
+.section1 {
+	background-color:  black;
+}
+
+.section2 {
+	background:  #0c0c0c;
+}
+
+.section .topFive {
+	width:  100%;
+}
+
+.section3 {
+	background:  #282828;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.section3 img {
+	height:  25%;
+}
+
+.section3 .space {
+	width:  100%;
+	height:  100px;
+}
+
+.section3 .thirdChart-title {
+	width:  100%;
+}
+
+.section3 p.meatProcess {
+	width:  40%;
+	font-size:  24px;
+	line-height: 1.5;
+	color:  white;
+	font-family:  'Cormorant Garamond', serif;
+}
+
+.livestock p.meatProcess,
+.packaging p.meatProcess,
+.plate p.meatProcess {
+	margin-left:  10%;
+}
+
+.slaughter p.meatProcess,
+.delivery p.meatProcess {
+	margin-right:  10%;
+}
+
+
+
+.section4 {
+	background:  #212121;
+}
+
+.section5 {
+	background:  #161616;
+}
+
+.section6 {
+	background:  #282828;
+}
+
+.section.sectionStart {
+	text-align:  center;
+	justify-content: center;
+}
+
+
+.section.sectionStart img {
+	height:  25%;
+}
+
+
+
+
+
+
+.section.livestock {
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ) center no-repeat, url("images/livestock.jpg") no-repeat;
+	background-position:  center;
+	background-size:  cover;
+	align-items:  flex-strat;
+}
+
+.section.slaughter {
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ) center no-repeat, url("images/slaughter.jpg") no-repeat;
+	background-position:  center;
+	align-items:  flex-strat;
+	background-size:  cover;
+}
+
+.section.packaging {
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ) center no-repeat, url("images/packaging.jpg") no-repeat;
+	background-position:  center;
+	align-items:  flex-strat;
+	background-size:  cover;
+}
+
+.section.delivery {
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ) center no-repeat, url("images/delivery.jpg") no-repeat;
+	background-position:  center;
+	align-items:  flex-strat;
+	background-size:  cover;
+}
+
+.section.plate {
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ) center no-repeat, url("images/plate.jpg") no-repeat;
+	background-position:  center;
+	align-items:  flex-strat;
+	background-size:  cover;
+}
+
+.livestock .thirdChart-title {
+	color:  #ffc3bf;
+}
+
+.slaughter .thirdChart-title {
+	color:  #f09690;
+}
+
+.packaging .thirdChart-title {
+	color:  #e06d65;
+}
+
+.delivery .thirdChart-title {
+	color:  #d45148;
+}
+
+.plate .thirdChart-title {
+	color:  #bf3026;
+}
+
+
+
+/*graph*/
+
+.help {
+	width:  100%;
+}
+
+
+.chart-container {
+	width:  80%;
+	margin:  0 auto 0 auto;
+	text-align: center;
+}
+
+
+
+.chart-container2 {
+	width:  80%;
+	margin:  0 auto 0 auto;
+	text-align: center;
+}
+
+.double-chart-container {
+	width:  45%;
+}
+
+.double-chart {
+	width:  100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.populationChart {
+	height:  500px;
+}
+
+.firstChart {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.firstChart-title {
+	color:  white;
+	width: 100%;
+	font-size:  24px;
+	margin-bottom:  120px;
+	text-align:  center;
+	font-family: 'DM Serif Display', serif;
+}
+
+.red {
+	color:  #d13232;
+	font-weight: bolder;
+}
+
+p .red {
+	font-style: italic;
+}
+
+.firstChart button {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color:  white;
+	font-family:  'DM Serif Display', serif;
+	font-size:  20px;
+	padding:  10px 0;
+	background:  none;
+	border: none;
+	cursor:  pointer;
+}
+
+.firstChart .yearbox {
+	width:  100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.firstChart img {
+	width:  175px;
+	margin:  10px 0;
+}
+
+.firstChart > div{
+	text-align: center;
+}
+
+.firstChart p {
+	color:  white;
+	text-align:  center;
+	font-size:  24px;
+	font-family:  'DM Serif Display', serif;
+	font-style:  italic;
+}
+
+.firstChart .number {
+	font-size:  36px;
+}
+
+/*.chart-container p {
+	margin-bottom:  30px;
+	color:  white;
+	text-align: center;
+	font-size:  108px;
+	font-family:  'DM Serif Display', serif;
+	font-style:  italic;
+}*/
+
+.chart-container .help {
+	text-align: center;
+	font-size:  18px;
+	font-family:  'Cormorant Garamond', serif;
+	color:  white;
+	font-style: normal;
+	margin-top:  40px;
+}
+
+.firstChart .firstYear {
+	color:  #ffc3bf;
+}
+
+.firstChart .secondYear {
+	color:  #f09690;
+}
+
+.firstChart .thirdYear {
+	color:  #e06d65;
+}
+
+.firstChart .fourthYear {
+	color:  #d45148;
+}
+
+.firstChart .fifthYear {
+	color:  #bf3026;
+}
+
+/*second chart*/
+
+#barChart {
+	height:  500px;
+}
+
+
+nav a {
+	color:  white;
+	text-decoration:  none;
+}
+
+
+
+
+
+/*third chart*/
+
+#pieChart {
+	height:  600px;
+}
+
+.light-red {
+	color:  #f0ada8;
+}
+
+.thirdChart-title {
+	color:  white;
+	font-size:  24px;
+	margin:  25px 0;
+	text-align:  center;
+	font-family: 'DM Serif Display', serif;
+}
+
+#gaugeChart1,
+#gaugeChart2,
+#gaugeChart3 {
+	height:  400px;
+	min-width:  33%;
+}
+
+.gaugeDiv {
+	display:  flex;
+	margin:  50px 0 0 0;
+}
+
+.fourthChart-title {
+	color:  white;
+	font-size:  24px;
+	margin-bottom:  25px;
+	text-align:  center;
+	font-family: 'DM Serif Display', serif;
+}
+
+#gauge-chart-container div.gaugeDiv {
+	margin:  0 0 -100px 0;
+}
+
+.button-container {
+	width:  100%;
+	margin:  150px 0 70px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+#gauge-chart-container button {
+	width:  27%;
+	padding:  15px 0;
+	background-color:  #1e1e1e;
+	color:  #ffffff;
+	border-radius:  15px;
+	font-family:  'DM Serif Display', serif;
+	font-size:  18px;
+
+}
+
+.koreaChart {
+	height:  500px;
+}
+
+p.fourthChart {
+	font-family:  'Cormorant Garamond', serif;
+	text-align: center;
+	color:  white;
+
+}
+
+#gauge-chart-container .poultry {
+	border:  3px solid #f0ada8;
+	color:  #f0ada8;
+}
+
+#gauge-chart-container .poultry:hover {
+	background-color:  #f0ada8;
+	color:  #212121;
+}
+
+#gauge-chart-container .pork {
+	border:  3px solid #fc746a;
+	color:  #fc746a;
+}
+
+#gauge-chart-container .pork:hover {
+	background-color:  #fc746a;
+	color:  #212121;
+}
+
+#gauge-chart-container .beef {
+	border:  3px solid #d13232;
+	color:  #d13232;
+}
+
+#gauge-chart-container .beef:hover {
+	background-color:  #d13232;
+	color:  #212121;
+}
+
+div.img-container {
+	width:  80%;
+	margin:  0 auto 250px auto;
+	text-align: center;
+	color:  white;
+}
+
+.img-container h3 {
+	margin:  10px 0;
+}
+
+.img-container img {
+	display: block;
+	margin:  30px auto;
+	width:  45%;
+	box-shadow: 5px 10px 30px #000000;
+	vertical-align: top;
+}
+
+.footer {
+	padding:  35px 0;
+	border-top:  2px solid #404040;
+	text-align: left;
+
+}
+
+.footer p {
+	font-size:  14px;
+	line-height:  2;
+	font-style:  normal;
+	color:  #404040;
+}
+
+

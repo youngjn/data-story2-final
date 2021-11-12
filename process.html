@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Process Book</title>
+</head>
+<body>
+	<nav class="top-nav">
+		<p class="site-title"><a href="index.html">GD3</a></p>
+		<p class="love-meat"><a href="process.html">Process!</a></p>
+	</nav>
+	<main>
+		<div class="main-content">
+			<h1 class="title">Process</h1>
+			<h2 class="author">by June Jung in OCADU Graphic Design.</h2>
+			<h3 class="date">Oct 12, 2021</h3>
+
+			<p>At first, when I first decided meat as my ingredient, I thought it will be fun if I specialize the data of consumption in certain country like Korea, or Canada. However, since my final goal was to show how consuming or producing meat affect Global Warming. Production of meat has a lot more connections with Global Warming like Green House Gas then consumption of meat. So I decided to focus on production of meat.</p>
+			<p>My first plan was to show how many meat are produced in a year from 2000 to 2018, since 2018 was the latest chart I can collect. This is the initial site look while I was building.</p>
+		</div>
+		<div class="img-container">
+			<img src="images/process1.png">
+		</div>
+		<div class="main-content">
+			
+			<p>I started by displaying a fun quote by Mahatma Ghandi. Also for the first number animation, I hard coded everything from the sketch. The rest, I used the library called 'chart.js'. It worked well in the way I thought it would be for the first line chart. However, for the pie chart, I couldn't find a documentation page for sizing and editing the principles of pie chart, so I gave up using chart.js for pie chart. Also for the first animation, I got a feedback that the data itself is not accessible because of the measurement. So I decided to change the way to show the first production data. Lastly, I added an gauge chart which is showing a different amount of GreenHouse Gas Emissions per kg of meat products. I had an initial idea of animation, I was searching for libraries to do this.</p>
+			
+			<p>This is the chart.js, the library I used and second look of the site.</p>
+		</div>
+		<div class="img-container">
+			<h3>Chart.js</h3>
+			<img src="images/chartjs.png">
+			<h3>2nd Process</h3>
+			<img src="images/process2.png">
+		</div>
+
+		<div class="main-content">
+			
+			<p>I found out this amazing library which is based on chartjs and d3 but way more easy. Echart.js is the one that I found for the pie chart and the last gauge chart. I think that library also can fit the mood of this site too, so I chose this one to use for the last two charts. Thus, I needed an animation for the last part, echart was the perfect fit. While finding library was going well, my data flow was kinda terrible. I tried to focus the data in certain country, but it didn't work with the Green House Gas emission part at the end. So I changed my flow from "Global Production - South Korea Production - Man Made Green House Gas - GreenHouse Gas Emission per kg of meat products." to "Global Production - Top 5 Meat Production around the world - Process of meat production - GreenHouse Gas Emission per kg of meat products.". This made more sense to me than before. Lastly, I figured out how to apply animation to my last gauge chart!</p>
+			
+			<p>This is the echart.js, the library I used and last look of the site.</p>
+		</div>
+		<div class="img-container">
+			<h3>Echart Apache</h3>
+			<img src="images/echart.png">
+
+			<h3>3rd Process</h3>
+			<img src="images/process3.png">
+		</div>
+		<div class="chart-container footer">
+			<p>https://www.c2es.org/content/international-emissions/<br>https://www.tabledebates.org/building-blocks/what-land-use-and-land-use-change<br>https://www.nrdc.org/stories/greenhouse-effect-101<br>https://ourworldindata.org/grapher/meat-production-tonnes<br>https://ourworldindata.org/grapher/global-meat-production<br>https://echarts.apache.org/examples/en/index.html#chart-type-gauge<br>https://echarts.apache.org/examples/en/editor.html?c=gauge-multi-title<br>https://diluigifoods.com/meat-production-process/<br>https://www.w3schools.com/</p>
+		</div>
+	</main>
+
+</body>
+</html>
