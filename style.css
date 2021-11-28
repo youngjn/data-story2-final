@@ -612,8 +612,8 @@ div.img-container {
 	color:  white;
 }
 
-.img-container h3 {
-	margin:  10px 0;
+div.img-container h3 {
+	margin:  55px 0 10px 0;
 }
 
 .img-container img {
@@ -625,6 +625,7 @@ div.img-container {
 }
 
 .footer {
+	margin-top:  100px;
 	padding:  35px 0;
 	border-top:  2px solid #404040;
 	text-align: left;
